@@ -21,6 +21,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-   - secretName: chart-artemis-tls
+   - secretName: dev-artemis-tls
      hosts:
        - dev-artemis.letstouchthesky.com 
